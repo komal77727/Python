@@ -26,7 +26,7 @@ def QRCodeGenerate():
     if qrString !='':
         qrGenerate=pyqrcode.create(qrString)
 
-        qrCodePath= 'C:\\Users\\RENUKA\\Desktop\\qrcode'
+        qrCodePath= 'path to save the image'
 
         qrCodeName= qrCodePath + qrString +".png"
 
